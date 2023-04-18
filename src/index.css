@@ -7,9 +7,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #202020;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/00/69/42/49/1000_F_69424905_vxTpRGAcVKni9157VpKAOG6MpTX30etl.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  font-size: 2 0px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40;
+  color: #fff;
+}
+
+.phonebook,
+.contacts {
+  margin-bottom: 20px;
 }
